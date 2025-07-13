@@ -107,6 +107,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -241,19 +242,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|1473200|685800|59538a0b-717b-4717-8cdf-167b6c3edbd2|2f7f9d21-757a-4504-b806-11e6994e9f49|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/d2a3fd58-643c-4f4d-8f5b-8f0d2f922e63|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/d2a3fd58-643c-4f4d-8f5b-8f0d2f922e63|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/d2a3fd58-643c-4f4d-8f5b-8f0d2f922e63",
-        ""
-      ],
-      [
         "power_pin_not_driven|1028700|355600|20e0bbe2-01e7-48a6-8f97-41342435c12d|00000000-0000-0000-0000-000000000000|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd|",
         ""
       ],
       [
         "power_pin_not_driven|1320800|1092200|22db738b-e53f-4cdc-9307-bc1872dde14e|00000000-0000-0000-0000-000000000000|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1473200|635000|a25f246f-7b7e-4464-98dc-1f51173c40c4|00000000-0000-0000-0000-000000000000|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/d2a3fd58-643c-4f4d-8f5b-8f0d2f922e63|/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/d2a3fd58-643c-4f4d-8f5b-8f0d2f922e63|",
         ""
       ],
       [
@@ -656,8 +649,8 @@
       "Root"
     ],
     [
-      "d2a3fd58-643c-4f4d-8f5b-8f0d2f922e63",
-      "3V Buck"
+      "0d11fddd-a8d6-4ffc-902f-d64a5c05d413",
+      "Relay_And_Jacks"
     ]
   ],
   "text_variables": {}
