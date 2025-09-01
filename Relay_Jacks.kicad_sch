@@ -4362,6 +4362,16 @@
 		)
 		(uuid "ff0db0dd-801b-457c-bd2e-bbe19e5e4238")
 	)
+	(label "RLY_CL+"
+		(at 162.56 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0455f2ea-8220-4a7a-81c1-0920caf66e1d")
+	)
 	(label "RLY_CL-"
 		(at 193.04 76.2 180)
 		(effects
