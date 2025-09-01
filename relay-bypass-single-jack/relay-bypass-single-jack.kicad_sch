@@ -7690,17 +7690,6 @@
 		)
 		(uuid "3d04326e-d72e-4fb8-b317-0d9cdb9ef58b")
 	)
-	(text "TODO change to LDO that's stable w/ low ESR?"
-		(exclude_from_sim no)
-		(at 131.445 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "57eb6cf4-ae6f-4848-8108-0d3c90999058")
-	)
 	(text "Reverse Polarity\nProtection"
 		(exclude_from_sim no)
 		(at 83.82 41.91 0)
@@ -17518,7 +17507,7 @@
 			)
 		)
 		(instances
-			(project "relay-bypass"
+			(project "relay-bypass-single-jack"
 				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
 					(page "3")
 				)

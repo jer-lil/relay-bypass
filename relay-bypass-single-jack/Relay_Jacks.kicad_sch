@@ -906,6 +906,281 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#gplm:con/CON-5001-0004"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eSH-new.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN WIRE TO BOARD SMD R/A 4POS 1MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "CON-5001-0004"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SM04B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pins" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "con/CON-5001-0004_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#gplm:dio/DIO-2001-0001"
 			(pin_numbers
 				(hide yes)
@@ -3831,12 +4106,6 @@
 		(uuid "3d059d83-6d29-4a70-81ca-a796af0dde8a")
 	)
 	(junction
-		(at 233.68 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53fc7ee9-58ab-4614-addd-8dc2ab7f3b89")
-	)
-	(junction
 		(at 119.38 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3859,6 +4128,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ed0fcc9-0b34-44e0-a6ee-2c5a7c193f8e")
+	)
+	(junction
+		(at 231.14 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9392979f-c393-4764-9a62-6577847ae90c")
 	)
 	(junction
 		(at 152.4 76.2)
@@ -3934,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 60.96) (xy 233.68 58.42)
+			(xy 231.14 73.66) (xy 231.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3951,6 +4226,16 @@
 			(type default)
 		)
 		(uuid "27e0e844-8a65-41ac-a5f2-0a8162ba8d9c")
+	)
+	(wire
+		(pts
+			(xy 241.3 68.58) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1e22e5-6d50-497a-9ef3-b0a05b44bfff")
 	)
 	(wire
 		(pts
@@ -3991,6 +4276,16 @@
 			(type default)
 		)
 		(uuid "466d5109-0540-4482-8122-fe77f8a13fb5")
+	)
+	(wire
+		(pts
+			(xy 231.14 71.12) (xy 231.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcf8181-526e-475f-9eb8-a3d366d9b5f2")
 	)
 	(wire
 		(pts
@@ -4064,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 53.34) (xy 228.6 53.34)
+			(xy 236.22 60.96) (xy 228.6 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4244,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 58.42) (xy 236.22 58.42)
+			(xy 231.14 58.42) (xy 236.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4271,6 +4566,16 @@
 			(type default)
 		)
 		(uuid "d0359a82-17fd-4561-91f5-5872f28e2171")
+	)
+	(wire
+		(pts
+			(xy 241.3 71.12) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc794582-9b43-4ec3-bc87-df705d091c6b")
 	)
 	(wire
 		(pts
@@ -4314,16 +4619,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 50.8) (xy 233.68 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efe360a0-8be2-4985-9dde-1be42983a4e7")
-	)
-	(wire
-		(pts
 			(xy 162.56 58.42) (xy 162.56 63.5)
 		)
 		(stroke
@@ -4331,16 +4626,6 @@
 			(type default)
 		)
 		(uuid "f367e44d-e28d-4a81-9e04-cbe5c6cf9794")
-	)
-	(wire
-		(pts
-			(xy 236.22 50.8) (xy 233.68 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f661ba21-3c0e-403a-89c3-9cd95373e533")
 	)
 	(wire
 		(pts
@@ -4510,7 +4795,7 @@
 	)
 	(hierarchical_label "SW_OUT"
 		(shape output)
-		(at 228.6 53.34 180)
+		(at 228.6 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4581,6 +4866,119 @@
 			(project "relay-bypass"
 				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/0d11fddd-a8d6-4ffc-902f-d64a5c05d413"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#gplm:con/CON-5001-0004")
+		(at 241.3 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a8f06a-912b-4443-96d2-0014e5157809")
+		(property "Reference" "J3"
+			(at 241.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4"
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eSH-new.pdf"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN WIRE TO BOARD SMD R/A 4POS 1MM"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "CON-5001-0004"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM04B-SRSS-TB"
+			(at 245.11 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pins" "4"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "32ea939e-061f-46de-a590-8e7c127f96bb")
+		)
+		(pin "4"
+			(uuid "c3e8a56c-acd6-495f-b5b9-9c332bf2b091")
+		)
+		(pin "1"
+			(uuid "b1ec72be-e142-4052-b375-c38b0c99042b")
+		)
+		(pin "2"
+			(uuid "61073862-919a-40c6-88aa-079b6a12ee02")
+		)
+		(pin "MP"
+			(uuid "0e123615-f426-4667-bbf4-3669f210d3cd")
+		)
+		(instances
+			(project "relay-bypass-single-jack"
+				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/0d11fddd-a8d6-4ffc-902f-d64a5c05d413"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5952,116 +6350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:con/CON-1003-M301")
-		(at 241.3 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88f73743-e1e0-4699-9b8d-86fd6bc118e6")
-		(property "Reference" "J3"
-			(at 243.205 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4"
-			(at 241.3 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "g-con:Amphenol_ACJM-MHDR(M)"
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "¼ in Audio Jack, TS, NC switch x2, Outtie, Low Profile, Metal shaft, metal  threads"
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "CON-1003-M301"
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol Audio"
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ACJM-MHDRM"
-			(at 245.745 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pins" "4"
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "b6128272-b468-46ae-81e4-22efbce5a10a")
-		)
-		(pin "S"
-			(uuid "860c87a2-9641-43fa-be79-441b922a56d4")
-		)
-		(pin "T"
-			(uuid "067e87a5-f361-4019-96b7-91b70c0608ba")
-		)
-		(pin "SN"
-			(uuid "0efe6af7-ac1b-4288-86e7-8a640b7257a7")
-		)
-		(instances
-			(project "relay-bypass"
-				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd/0d11fddd-a8d6-4ffc-902f-d64a5c05d413"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "#gplm:cap/CAP-4103-100N")
 		(at 163.83 124.46 0)
 		(mirror y)
@@ -7044,7 +7332,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 233.68 60.96 0)
+		(at 231.14 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7053,7 +7341,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2725ef6-f1e4-4584-9efd-ea84d46f54da")
 		(property "Reference" "#PWR029"
-			(at 233.68 67.31 0)
+			(at 231.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7350,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 233.6801 64.77 90)
+			(at 231.1401 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 60.96 0)
+			(at 231.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 60.96 0)
+			(at 231.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 233.68 60.96 0)
+			(at 231.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
