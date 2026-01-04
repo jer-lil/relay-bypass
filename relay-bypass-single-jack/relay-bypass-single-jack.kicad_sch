@@ -2169,7 +2169,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#gplm:cap/CAP-4107-001U"
+		(symbol "#gplm:cap/CAP-4106-04U7"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2188,7 +2188,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1u"
+			(property "Value" "4.7u"
 				(at 0.635 -3.175 0)
 				(effects
 					(font
@@ -2197,7 +2197,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -2215,7 +2215,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP SMD 1uF 0603 10V+ X7R"
+			(property "Description" "CAP SMD 4.7uF 1206 25V+ X7R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2224,7 +2224,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package/Case" "0603"
+			(property "Package/Case" "1206"
 				(at 2.54 1.27 0)
 				(effects
 					(font
@@ -2233,7 +2233,7 @@
 					(justify left)
 				)
 			)
-			(property "Voltage" "10V+"
+			(property "Voltage" "25V+"
 				(at 2.54 -1.27 0)
 				(effects
 					(font
@@ -2251,7 +2251,7 @@
 					(justify left)
 				)
 			)
-			(property "IPN" "CAP-4107-001U"
+			(property "IPN" "CAP-4106-04U7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2269,7 +2269,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C0603C105K8RACTU"
+			(property "MPN" "C1206C475K3RACTU"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2278,7 +2278,7 @@
 					(hide yes)
 				)
 			)
-			(property "Capacitance" "1u"
+			(property "Capacitance" "4.7u"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2305,7 +2305,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0603_1608Metric"
+			(property "ki_fp_filters" "Capacitor_SMD:C_1206_3216Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2314,7 +2314,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "cap/CAP-4107-001U_0_1"
+			(symbol "cap/CAP-4106-04U7_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -2340,7 +2340,7 @@
 					)
 				)
 			)
-			(symbol "cap/CAP-4107-001U_1_1"
+			(symbol "cap/CAP-4106-04U7_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3991,6 +3991,209 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#gplm:reg/REG-1011-0ADJ"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM317LCPK"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO, Positive, 1ch, Adj, 100mA, 38Vin, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "REG-1011-0ADJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LM317LCPK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "ADJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current" "100mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Package_TO_SOT_SMD:SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "reg/REG-1011-0ADJ_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "reg/REG-1011-0ADJ_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7173,6 +7376,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "cap/CAP-4105-001U_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at 0.635 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP SMD 1uF 0805 25V+ X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package/Case" "805"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Voltage" "25V+"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Material" "X7R"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "IPN" "CAP-4105-001U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kemet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C0805C105K3RACTU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_0805_2012Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "cap/CAP-4105-001U_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "cap/CAP-4105-001U_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+9V"
 			(power)
 			(pin_numbers
@@ -7883,6 +8297,12 @@
 		(uuid "0440f8d9-e735-4e6e-b6ca-2df497803f2e")
 	)
 	(junction
+		(at 101.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ba1fb65-6ea5-465f-8b68-4dc9f58ad2c0")
+	)
+	(junction
 		(at 158.75 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7907,12 +8327,6 @@
 		(uuid "16da899c-6246-400e-9e2f-86052e645637")
 	)
 	(junction
-		(at 109.22 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "172322ad-d105-41fe-8a5c-71c710719b04")
-	)
-	(junction
 		(at 148.59 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7929,6 +8343,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ed435d1-cddb-45f3-af7e-e2172f7e009d")
+	)
+	(junction
+		(at 114.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24637fb6-6c3b-4e12-a029-6c10dcb6003f")
 	)
 	(junction
 		(at 168.91 50.8)
@@ -7967,6 +8387,12 @@
 		(uuid "37297b5f-bbee-4025-85ef-83bda876d285")
 	)
 	(junction
+		(at 144.78 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42f3b52f-fb44-4f26-8e0b-6c41b93fcb8b")
+	)
+	(junction
 		(at 53.34 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7979,10 +8405,10 @@
 		(uuid "52aeb0e6-e2ff-4b28-a263-5d86cd138766")
 	)
 	(junction
-		(at 191.77 50.8)
+		(at 190.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56d4716e-647d-4ad2-bcd3-4db9868288f6")
+		(uuid "57f96342-6056-4945-88a2-7bfb559d14bc")
 	)
 	(junction
 		(at 73.66 73.66)
@@ -7997,6 +8423,12 @@
 		(uuid "5c4df9fb-ffc1-4cae-a71e-135d27d30762")
 	)
 	(junction
+		(at 151.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f0beac2-ef26-4a48-9dc7-ec56d6cf3d30")
+	)
+	(junction
 		(at 83.82 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8007,6 +8439,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e6dc73d-cab6-4060-8b08-e20028ee5a06")
+	)
+	(junction
+		(at 109.22 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f1108a9-db2d-4653-a125-ef0b20f5cbe4")
 	)
 	(junction
 		(at 105.41 50.8)
@@ -8025,6 +8463,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "938dce30-ee41-4551-ae68-21550d4952fb")
+	)
+	(junction
+		(at 139.7 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ecf4273-fce7-46ba-a1e5-3a08fa5bac60")
 	)
 	(junction
 		(at 238.76 48.26)
@@ -8057,6 +8501,12 @@
 		(uuid "cecca7d5-e7b5-4ce2-a9ec-528b64db0879")
 	)
 	(junction
+		(at 198.12 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db78df20-3cd7-4bce-b142-fd4076d2545c")
+	)
+	(junction
 		(at 66.04 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8079,6 +8529,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f80af9f3-41dc-4fda-ba3c-1adaed4332f7")
+	)
+	(junction
+		(at 109.22 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9128fb3-6dab-4022-9f50-5b07c1e50071")
 	)
 	(no_connect
 		(at 149.86 119.38)
@@ -8171,6 +8627,16 @@
 			(type default)
 		)
 		(uuid "05348703-9d2c-45a4-964f-145ff053d1b7")
+	)
+	(wire
+		(pts
+			(xy 129.54 38.1) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0631fa75-406b-4d5c-b857-809a22ee7c76")
 	)
 	(wire
 		(pts
@@ -8394,6 +8860,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 62.23) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d5d1a0-f0a0-40f9-8940-a5d094f64e91")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f90b678-871f-4712-ae99-f6f3f5ea004b")
+	)
+	(wire
+		(pts
 			(xy 168.91 55.88) (xy 168.91 50.8)
 		)
 		(stroke
@@ -8411,16 +8897,6 @@
 			(type default)
 		)
 		(uuid "3130bbb4-fddb-4a28-ad56-ee69a106200a")
-	)
-	(wire
-		(pts
-			(xy 191.77 55.88) (xy 191.77 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e02a17-c41d-474b-9f67-c30d2b16374a")
 	)
 	(wire
 		(pts
@@ -8444,6 +8920,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354dc8cd-dff9-4759-a986-1282eac5aa32")
+	)
+	(wire
+		(pts
 			(xy 215.9 86.36) (xy 228.6 86.36)
 		)
 		(stroke
@@ -8451,6 +8937,16 @@
 			(type default)
 		)
 		(uuid "36a7d4ed-fb8f-4f78-9aa6-78cdce4fe065")
+	)
+	(wire
+		(pts
+			(xy 198.12 63.5) (xy 198.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3850bfcc-e565-4da1-9a26-51c85ad5ba68")
 	)
 	(wire
 		(pts
@@ -8471,6 +8967,16 @@
 			(type default)
 		)
 		(uuid "39033b2f-8d4c-4019-a1f9-132a886b468a")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3996fc5a-e1e3-45ab-9a65-470ba222930e")
 	)
 	(wire
 		(pts
@@ -8504,7 +9010,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 50.8) (xy 191.77 50.8)
+			(xy 179.07 50.8) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8591,16 +9097,6 @@
 			(type default)
 		)
 		(uuid "4721356a-7622-484a-bc52-88116ba0dddd")
-	)
-	(wire
-		(pts
-			(xy 191.77 50.8) (xy 196.85 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e49210-1787-425b-beba-c2ca457dd000")
 	)
 	(wire
 		(pts
@@ -8794,7 +9290,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 63.5) (xy 124.46 63.5)
+			(xy 101.6 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8824,6 +9320,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 30.48) (xy 114.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647ebb1d-38e0-48f2-a30f-78964f3c37b8")
+	)
+	(wire
+		(pts
 			(xy 179.07 50.8) (xy 168.91 50.8)
 		)
 		(stroke
@@ -8831,6 +9337,16 @@
 			(type default)
 		)
 		(uuid "65cee863-881a-491f-8db6-601e8bb501f5")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.8) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b8d3d9-9ec8-42a6-925b-bb6fe9931303")
 	)
 	(wire
 		(pts
@@ -8864,23 +9380,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 50.8) (xy 196.85 48.26)
+			(xy 205.74 50.8) (xy 205.74 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6bac8874-057d-4621-a07a-69da0f2bd519")
-	)
-	(wire
-		(pts
-			(xy 191.77 63.5) (xy 191.77 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc1a6c8-e643-4202-af53-b0c968c48b21")
 	)
 	(wire
 		(pts
@@ -8914,23 +9420,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 50.8) (xy 119.38 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ef102f4-f6e7-4c73-832e-0c8b8554d792")
-	)
-	(wire
-		(pts
-			(xy 109.22 50.8) (xy 109.22 53.34)
+			(xy 101.6 50.8) (xy 101.6 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f88529c-fcbd-4e42-bf8a-6ff133a62b5c")
+	)
+	(wire
+		(pts
+			(xy 144.78 63.5) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fefcf0a-3e8f-4a1a-b342-79ebf9b84509")
 	)
 	(wire
 		(pts
@@ -8984,6 +9490,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 30.48) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e459400-d393-4598-9c3c-09db07fa4cbc")
+	)
+	(wire
+		(pts
 			(xy 73.66 68.58) (xy 73.66 73.66)
 		)
 		(stroke
@@ -9031,6 +9547,16 @@
 			(type default)
 		)
 		(uuid "87ac977e-d935-476b-98d5-e1c4033737e9")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8940d2a2-ee57-495d-b500-669207f4b9da")
 	)
 	(wire
 		(pts
@@ -9111,6 +9637,26 @@
 			(type default)
 		)
 		(uuid "9a72733b-f545-4ba8-9ce5-a89d12bd1517")
+	)
+	(wire
+		(pts
+			(xy 139.7 33.02) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9acdcd02-97fa-4fd5-b061-b83dd9c121bf")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae3d0a2-a08b-42ea-b40c-ea6a1a2fa060")
 	)
 	(wire
 		(pts
@@ -9214,7 +9760,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 50.8) (xy 105.41 50.8)
+			(xy 101.6 50.8) (xy 105.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6aa19e-02c3-412d-b5d1-9dec3fa6ef7a")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9231,6 +9787,16 @@
 			(type default)
 		)
 		(uuid "aaf53bdd-8b0a-42dd-872f-b235f563bc40")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad10429d-57f6-4292-9ec1-dbfbedcaad68")
 	)
 	(wire
 		(pts
@@ -9281,6 +9847,16 @@
 			(type default)
 		)
 		(uuid "b38836c2-0e73-4385-88d4-a68e73465063")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c84510-e063-4dc1-b75b-0f8d4ce395bd")
 	)
 	(wire
 		(pts
@@ -9454,6 +10030,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 38.1) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda29dcc-7a3e-4b32-ba80-da5da877f501")
+	)
+	(wire
+		(pts
 			(xy 238.76 58.42) (xy 238.76 59.69)
 		)
 		(stroke
@@ -9461,6 +10047,26 @@
 			(type default)
 		)
 		(uuid "de2eebc6-2bc5-462c-95c2-88d42056745e")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de83a412-f5e6-4747-8edf-cd40e61b1d0f")
+	)
+	(wire
+		(pts
+			(xy 151.13 30.48) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dece36ae-7df4-49bc-99da-7c1d472bf680")
 	)
 	(wire
 		(pts
@@ -9494,7 +10100,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 50.8) (xy 158.75 50.8)
+			(xy 148.59 50.8) (xy 151.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9514,7 +10120,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 60.96) (xy 109.22 63.5)
+			(xy 101.6 62.23) (xy 101.6 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9564,6 +10170,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5b5732-efa2-4be1-82c7-d391abbd896a")
+	)
+	(wire
+		(pts
 			(xy 220.98 48.26) (xy 238.76 48.26)
 		)
 		(stroke
@@ -9584,6 +10200,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 30.48) (xy 151.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef55473f-8b7c-4bf1-8028-e3fdb4f1c6b7")
+	)
+	(wire
+		(pts
 			(xy 48.26 27.94) (xy 48.26 43.18)
 		)
 		(stroke
@@ -9594,7 +10220,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 148.59 63.5)
+			(xy 139.7 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9654,6 +10280,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8994a59-685e-4966-88ab-490884da4cc2")
+	)
+	(wire
+		(pts
 			(xy 139.7 60.96) (xy 139.7 63.5)
 		)
 		(stroke
@@ -9661,6 +10297,16 @@
 			(type default)
 		)
 		(uuid "fd5536ca-3f3d-4972-9218-010362ed1e2d")
+	)
+	(wire
+		(pts
+			(xy 114.3 30.48) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd59f68c-d828-4c42-ae0f-c83ec90ad1c7")
 	)
 	(wire
 		(pts
@@ -10945,7 +11591,8 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:cap/CAP-4107-001U")
+		(lib_name "cap/CAP-4105-001U_1")
+		(lib_id "#gplm:cap/CAP-4105-001U")
 		(at 179.07 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10971,7 +11618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 180.0352 63.5 0)
 			(effects
 				(font
@@ -10989,7 +11636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP SMD 1uF 0603 10V+ X7R"
+		(property "Description" "CAP SMD 1uF 0805 25V+ X7R"
 			(at 179.07 59.69 0)
 			(effects
 				(font
@@ -10998,7 +11645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" "0603"
+		(property "Package/Case" "805"
 			(at 181.61 58.42 0)
 			(effects
 				(font
@@ -11007,7 +11654,7 @@
 				(justify left)
 			)
 		)
-		(property "Voltage" "10V+"
+		(property "Voltage" "25V+"
 			(at 181.61 60.96 0)
 			(effects
 				(font
@@ -11025,7 +11672,7 @@
 				(justify left)
 			)
 		)
-		(property "IPN" "CAP-4107-001U"
+		(property "IPN" "CAP-4105-001U"
 			(at 179.07 59.69 0)
 			(effects
 				(font
@@ -11043,7 +11690,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C105K8RACTU"
+		(property "MPN" "C0805C105K3RACTU"
 			(at 179.07 59.69 0)
 			(effects
 				(font
@@ -13301,6 +13948,147 @@
 		)
 	)
 	(symbol
+		(lib_id "#gplm:cap/CAP-4103-100N")
+		(at 109.22 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57b270f5-43b9-4620-ad55-70c56c4fa181")
+		(property "Reference" "C11"
+			(at 109.855 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 109.855 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 110.1852 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "CAP-4103-100N"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RACTU"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d566377d-d72c-4786-ab43-9eb783c370ec")
+		)
+		(pin "2"
+			(uuid "f3076119-68c8-432c-b8c5-4a8647b3b8ae")
+		)
+		(instances
+			(project "relay-bypass-single-jack"
+				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#gplm:reg/REG-1005-0001")
 		(at 127 53.34 0)
 		(unit 1)
@@ -13719,34 +14507,17 @@
 		)
 	)
 	(symbol
-		(lib_id "#gplm:cap/CAP-3005-047U")
-		(at 191.77 59.69 0)
+		(lib_id "power:GNDD")
+		(at 190.5 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6af7e466-5bed-4b04-99f3-88cec8d3d376")
-		(property "Reference" "C11"
-			(at 192.405 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 192.405 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 192.7352 63.5 0)
+		(fields_autoplaced yes)
+		(uuid "72507380-8256-4253-adea-88b57ee9a8cb")
+		(property "Reference" "#PWR018"
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13754,8 +14525,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf"
-			(at 191.77 59.69 0)
+		(property "Value" "GNDD"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,8 +14542,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM POL 20% 25V SMT 47u"
-			(at 191.77 59.69 0)
+		(property "Datasheet" ""
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13772,88 +14551,22 @@
 				(hide yes)
 			)
 		)
-		(property "Package/Case" "Radial, Can - SMD"
-			(at 194.31 58.42 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 194.31 60.96 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Material" "Aluminum Electrolytic"
-			(at 194.31 59.69 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "IPN" "CAP-3005-047U"
-			(at 191.77 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EEE-FK1E470P"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "47u"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "+/-20%"
-			(at 191.77 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69962b2f-dc6c-4d31-bdec-57c5fe9814a6")
 		)
 		(pin "1"
-			(uuid "7350c075-60e6-4d6b-aa07-b30d9819e596")
+			(uuid "e72877d5-2625-45cc-8cc6-158d23d15dd8")
 		)
 		(instances
-			(project ""
+			(project "relay-bypass-single-jack"
 				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
-					(reference "C11")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14163,6 +14876,147 @@
 		)
 	)
 	(symbol
+		(lib_id "#gplm:cap/CAP-4103-100N")
+		(at 190.5 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "838d8d1a-a0f6-4637-9b71-c9f60f3c7681")
+		(property "Reference" "C17"
+			(at 191.135 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 191.135 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 191.4652 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 100nF 0402 25V+ X7R"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "CAP-4103-100N"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RACTU"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100n"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 193.04 59.69 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "0402"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3e7723a6-6710-42d9-ad54-b8071ba9b544")
+		)
+		(pin "2"
+			(uuid "36436e64-082e-4cd0-9e4d-a2f6502eb137")
+		)
+		(instances
+			(project "relay-bypass-single-jack"
+				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 271.78 52.07 0)
 		(unit 1)
@@ -14465,7 +15319,7 @@
 	)
 	(symbol
 		(lib_id "#gplm:cap/CAP-4106-02U2")
-		(at 109.22 57.15 0)
+		(at 101.6 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14473,7 +15327,7 @@
 		(dnp no)
 		(uuid "9a7ec1e4-3483-479a-8bbe-8ce41c942c34")
 		(property "Reference" "C3"
-			(at 109.855 53.975 0)
+			(at 102.235 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +15336,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 109.855 60.325 0)
+			(at 102.235 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +15345,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 110.1852 60.96 0)
+			(at 102.5652 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14500,7 +15354,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 109.22 57.15 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14509,7 +15363,7 @@
 			)
 		)
 		(property "Description" "CAP SMD 2.2uF 1206 25V+ X7R"
-			(at 109.22 57.15 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14518,7 +15372,7 @@
 			)
 		)
 		(property "IPN" "CAP-4106-02U2"
-			(at 109.22 57.15 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14527,7 +15381,7 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 109.22 57.15 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14536,7 +15390,7 @@
 			)
 		)
 		(property "MPN" "C1206C225K3RACTU"
-			(at 109.22 57.15 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14545,7 +15399,7 @@
 			)
 		)
 		(property "Capacitance" "2.2u"
-			(at 109.22 57.15 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14554,7 +15408,7 @@
 			)
 		)
 		(property "Voltage" "25V+"
-			(at 111.76 58.42 0)
+			(at 104.14 59.69 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14563,7 +15417,7 @@
 			)
 		)
 		(property "Material" "X7R"
-			(at 111.76 57.15 0)
+			(at 104.14 58.42 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14572,7 +15426,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 109.22 57.15 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14581,7 +15435,7 @@
 			)
 		)
 		(property "Package/Case" "1206"
-			(at 111.76 55.88 0)
+			(at 104.14 57.15 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -15609,6 +16463,147 @@
 		)
 	)
 	(symbol
+		(lib_id "#gplm:cap/CAP-4106-04U7")
+		(at 198.12 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b3fa826e-5fa1-4971-b404-4f3092691e30")
+		(property "Reference" "C16"
+			(at 198.755 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 198.755 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 199.0852 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP SMD 4.7uF 1206 25V+ X7R"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package/Case" "1206"
+			(at 200.66 58.42 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "25V+"
+			(at 200.66 60.96 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Material" "X7R"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "IPN" "CAP-4106-04U7"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1206C475K3RACTU"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "4.7u"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "823fa501-2ffa-4655-8a0f-34b0a43ddff0")
+		)
+		(pin "2"
+			(uuid "2a76278e-4853-4f36-9bb4-4a8c97f7c1e3")
+		)
+		(instances
+			(project ""
+				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#gplm:cap/CAP-4103-022N")
 		(at 158.75 59.69 0)
 		(unit 1)
@@ -15893,6 +16888,72 @@
 			(project "relay-bypass"
 				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 198.12 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfc037fd-9033-4574-a5bd-31ff5ef229ac")
+		(property "Reference" "#PWR039"
+			(at 198.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 198.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "736ef135-b138-42aa-b260-1a409271f716")
+		)
+		(instances
+			(project "relay-bypass-single-jack"
+				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16943,7 +18004,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 196.85 48.26 0)
+		(at 205.74 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16951,7 +18012,7 @@
 		(dnp no)
 		(uuid "e7038fd4-338f-443f-b9e9-0e3017fc39f0")
 		(property "Reference" "#PWR019"
-			(at 196.85 52.07 0)
+			(at 205.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16960,7 +18021,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 196.85 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16968,7 +18029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 48.26 0)
+			(at 205.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +18038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 48.26 0)
+			(at 205.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +18047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 196.85 48.26 0)
+			(at 205.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,6 +18288,125 @@
 		)
 	)
 	(symbol
+		(lib_id "#gplm:reg/REG-1011-0ADJ")
+		(at 129.54 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f04e7765-0b07-4236-aa08-9862cdddf582")
+		(property "Reference" "U4"
+			(at 125.73 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM317LCPK"
+			(at 129.54 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO, Positive, 1ch, Adj, 100mA, 38Vin, SOT-223"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "REG-1011-0ADJ"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM317LCPK"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "ADJ"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "100mA"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2527e112-dfad-4e8c-ad66-d9d1b8777e45")
+		)
+		(pin "1"
+			(uuid "35036dc2-e94d-4a92-84fc-92a7524522b1")
+		)
+		(pin "2"
+			(uuid "55c0b9e6-e78b-4600-9707-40a7aeafb3e0")
+		)
+		(pin "4"
+			(uuid "d0f68cef-33eb-4fad-a504-3701c686a814")
+		)
+		(instances
+			(project ""
+				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 167.64 149.86 0)
 		(unit 1)
@@ -17352,72 +18532,6 @@
 			(project "relay-bypass"
 				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 191.77 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2f66917-a11f-4b6c-b186-5b8157ef01fc")
-		(property "Reference" "#PWR018"
-			(at 191.77 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 191.77 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e685dcd-b5f1-4946-8bb2-ddfe87fb85d0")
-		)
-		(instances
-			(project "relay-bypass"
-				(path "/1a8abc1e-f066-401c-b73c-6efc7ca39ffd"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
